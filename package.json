@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "your-package-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "build": "echo 'No build script specified' && exit 0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
+}
